@@ -1,0 +1,3 @@
+displayName = Upgrader items
+author = myangell
+version = 0.1
