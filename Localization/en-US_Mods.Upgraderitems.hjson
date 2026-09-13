@@ -1,3 +1,172 @@
-# This file will automatically update with entries for new content after a build and reload.
-# Please read https://github.com/tModLoader/tModLoader/wiki/Localization to learn more about localization and these files.
+Tooltip: {
+	Value: Value: {0}
+	StackValue: Stack total: {0}
+}
 
+Category: {
+	None: Unsupported
+	Weapon: Weapon
+	Armor: Armor
+	Accessory: Accessory
+}
+
+Blocked: {
+	Ready: Ready
+	NoStake: Put an item into the left slot first
+	NoTarget: Pick the item you want on the right
+	CategoryMismatch: Only weapon to weapon, armor to armor, accessory to accessory
+	SameItem: Pick something other than the item you staked
+	Favorited: Favorited items are protected - unfavorite it to gamble it
+	Cooldown: The machine is still cooling down
+	MultiplayerDisabled: The upgrader is disabled on this server
+}
+
+UI: {
+	Title: ITEM UPGRADER
+	Chance: chance
+	Upgrade: UPGRADE
+	UpgradeMeme: LET'S GO GAMBLING!
+	Rolling: ROLLING...
+	Success: WIN!
+	Failure: LOST
+	Inventory: Inventory
+	InventoryHint: Left click an item to stake it
+	StakeEmptyTitle: Choose an item to upgrade
+	StakeEmptyHint: Click it in the inventory below
+	TargetEmptyTitle: Choose the item you want
+	TargetEmptyHint: Click to open the catalog
+	Stats: Wins: {0}   Losses: {1}   Streak: {2}   Best: {3}
+	WonMessage: You won {0}!
+	LostMessage: Gone. Better luck next time.
+	ButtonTooltip: Item Upgrader  (right-drag to move)
+	ButtonDragging: moving...
+	CatalogTitle: Catalog - {0}
+	SearchHint: Search by name...
+	Back: < Back
+	NoResults: Nothing matches that search
+	CatalogFooter: "{0} items   -   row {1} of {2}"
+	CatalogHint: Left click picks an item   -   right click or Esc goes back
+
+	Sort: {
+		ValueAsc: Cheapest first
+		ValueDesc: Priciest first
+		Name: Alphabetical
+	}
+
+	QuickHint: {
+		x2: Target worth about 2x your stake
+		x4: Target worth about 4x your stake
+		x8: Target worth about 8x your stake
+		30Percent: Target that gives roughly a 30% chance
+		50Percent: Target that gives roughly a 50% chance
+		70Percent: Target that gives roughly a 70% chance
+	}
+}
+
+Configs: {
+	UpgraderServerConfig: {
+		DisplayName: Upgrader rules
+
+		Headers: {
+			Odds: Odds
+			Rules: Rules
+			Categories: Categories
+		}
+
+		HouseEdge: {
+			Label: House edge
+			Tooltip: Fair odds are stake value / target value. This multiplies them, so 0.9 means you get 90% of fair odds.
+		}
+
+		MaxChance: {
+			Label: Maximum chance
+			Tooltip: Upper cap on the success chance.
+		}
+
+		MinChance: {
+			Label: Minimum chance
+			Tooltip: Lower cap, so absurd targets are still theoretically winnable.
+		}
+
+		FailureRefund: {
+			Label: Refund on failure
+			Tooltip: Fraction of the lost item's sell price paid back in coins. 0 means a total loss.
+		}
+
+		ProtectFavoritedItems: {
+			Label: Protect favorited items
+			Tooltip: Favorited items cannot be staked. Highly recommended.
+		}
+
+		AllowInMultiplayer: {
+			Label: Allow in multiplayer
+			Tooltip: Turn off to disable the upgrader on this server.
+		}
+
+		CooldownTicks: {
+			Label: Cooldown (ticks)
+			Tooltip: Delay between upgrades. 60 ticks is one second.
+		}
+
+		StrictCategories: {
+			Label: Strict categories
+			Tooltip: Weapons only upgrade into weapons, armor into armor, accessories into accessories. Turn off to allow anything.
+		}
+	}
+
+	UpgraderClientConfig: {
+		DisplayName: Upgrader interface
+
+		Headers: {
+			Tooltip: Tooltip
+			Interface: Interface
+		}
+
+		ShowValueInTooltip: {
+			Label: Show value in tooltips
+			Tooltip: ""
+		}
+
+		ShowStackValueInTooltip: {
+			Label: Show stack total
+			Tooltip: Adds a second line with the value of the whole stack.
+		}
+
+		AnimateTooltipIcon: {
+			Label: Animate the coin
+			Tooltip: ""
+		}
+
+		TooltipIconFrameTicks: {
+			Label: Coin spin speed
+			Tooltip: Ticks per frame. Higher is slower.
+		}
+
+		TooltipIconSize: {
+			Label: Coin size
+			Tooltip: Whole steps keep the pixel art crisp.
+		}
+
+		ShowInventoryButton: {
+			Label: Show inventory button
+			Tooltip: Right-drag the button in game to move it.
+		}
+
+		PlaySounds: {
+			Label: Sound effects
+			Tooltip: ""
+		}
+
+		SpinDurationTicks: {
+			Label: Spin length (ticks)
+			Tooltip: How long the wheel spins before showing the result.
+		}
+
+		ScreenShakeOnResult: {
+			Label: Screen shake on result
+			Tooltip: ""
+		}
+	}
+}
+
+Keybinds.ToggleUpgrader.DisplayName: Open Item Upgrader

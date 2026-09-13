@@ -1,3 +1,5 @@
-displayName = Upgrader items
+displayName = Item Upgrader
 author = myangell
 version = 0.1
+side = Both
+buildIgnore = .git/*, .gitattributes, .vs/*, bin/*, obj/*

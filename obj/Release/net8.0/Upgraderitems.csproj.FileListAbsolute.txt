@@ -1,0 +1,13 @@
+C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\Upgraderitems\bin\Release\net8.0\Upgraderitems.deps.json
+C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\Upgraderitems\bin\Release\net8.0\Upgraderitems.dll
+C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\Upgraderitems\bin\Release\net8.0\Upgraderitems.pdb
+C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\Upgraderitems\obj\Release\net8.0\Upgraderitems.csproj.AssemblyReference.cache
+C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\Upgraderitems\obj\Release\net8.0\Upgraderitems.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\Upgraderitems\obj\Release\net8.0\Upgraderitems.AssemblyInfoInputs.cache
+C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\Upgraderitems\obj\Release\net8.0\Upgraderitems.AssemblyInfo.cs
+C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\Upgraderitems\obj\Release\net8.0\Upgraderitems.csproj.CoreCompileInputs.cache
+C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\Upgraderitems\obj\Release\net8.0\Upgraderitems.sourcelink.json
+C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\Upgraderitems\obj\Release\net8.0\Upgraderitems.dll
+C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\Upgraderitems\obj\Release\net8.0\refint\Upgraderitems.dll
+C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\Upgraderitems\obj\Release\net8.0\Upgraderitems.pdb
+C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\Upgraderitems\obj\Release\net8.0\ref\Upgraderitems.dll

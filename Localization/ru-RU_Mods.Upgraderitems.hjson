@@ -1,0 +1,172 @@
+Tooltip: {
+	Value: Ценность: {0}
+	StackValue: За стак: {0}
+}
+
+Category: {
+	None: Не поддерживается
+	Weapon: Оружие
+	Armor: Броня
+	Accessory: Аксессуар
+}
+
+Blocked: {
+	Ready: Готово
+	NoStake: Сначала положи предмет в левый слот
+	NoTarget: Выбери желаемый предмет справа
+	CategoryMismatch: Только оружие в оружие, броня в броню, аксессуар в аксессуар
+	SameItem: Выбери предмет, отличный от поставленного
+	Favorited: Избранные предметы защищены — убери из избранного, чтобы поставить
+	Cooldown: Автомат ещё остывает
+	MultiplayerDisabled: Апгрейдер отключён на этом сервере
+}
+
+UI: {
+	Title: АПГРЕЙД ПРЕДМЕТОВ
+	Chance: шанс
+	Upgrade: ПРОКАЧАТЬ
+	UpgradeMeme: LET'S GO GAMBLING!
+	Rolling: КРУТИМ...
+	Success: ПОБЕДА!
+	Failure: ПРОИГРЫШ
+	Inventory: Инвентарь
+	InventoryHint: ЛКМ по предмету, чтобы поставить его
+	StakeEmptyTitle: Выбери предмет для апгрейда
+	StakeEmptyHint: Нажми на него в инвентаре ниже
+	TargetEmptyTitle: Выбери желаемый предмет
+	TargetEmptyHint: Нажми, чтобы открыть каталог
+	Stats: Побед: {0}   Поражений: {1}   Серия: {2}   Рекорд: {3}
+	WonMessage: Ты выиграл {0}!
+	LostMessage: Всё сгорело. Повезёт в следующий раз.
+	ButtonTooltip: Апгрейд предметов  (ПКМ-перетаскивание — перенести)
+	ButtonDragging: перенос...
+	CatalogTitle: Каталог — {0}
+	SearchHint: Поиск по названию...
+	Back: < Назад
+	NoResults: Ничего не найдено
+	CatalogFooter: "{0} предметов   -   ряд {1} из {2}"
+	CatalogHint: ЛКМ — выбрать   -   ПКМ или Esc — назад
+
+	Sort: {
+		ValueAsc: Сначала дешёвые
+		ValueDesc: Сначала дорогие
+		Name: По алфавиту
+	}
+
+	QuickHint: {
+		x2: Цель примерно в 2 раза дороже ставки
+		x4: Цель примерно в 4 раза дороже ставки
+		x8: Цель примерно в 8 раз дороже ставки
+		30Percent: Цель с шансом около 30%
+		50Percent: Цель с шансом около 50%
+		70Percent: Цель с шансом около 70%
+	}
+}
+
+Configs: {
+	UpgraderServerConfig: {
+		DisplayName: Правила апгрейдера
+
+		Headers: {
+			Odds: Шансы
+			Rules: Правила
+			Categories: Категории
+		}
+
+		HouseEdge: {
+			Label: Комиссия заведения
+			Tooltip: Честный шанс — это ценность ставки / ценность цели. Значение умножает его: 0.9 означает 90% от честного шанса.
+		}
+
+		MaxChance: {
+			Label: Максимальный шанс
+			Tooltip: Верхний предел шанса успеха.
+		}
+
+		MinChance: {
+			Label: Минимальный шанс
+			Tooltip: Нижний предел, чтобы даже безумные цели теоретически выпадали.
+		}
+
+		FailureRefund: {
+			Label: Возврат при проигрыше
+			Tooltip: Доля цены продажи потерянного предмета, возвращаемая монетами. 0 — полная потеря.
+		}
+
+		ProtectFavoritedItems: {
+			Label: Защищать избранные предметы
+			Tooltip: Избранные предметы нельзя поставить. Настоятельно рекомендуется.
+		}
+
+		AllowInMultiplayer: {
+			Label: Разрешить в мультиплеере
+			Tooltip: Выключите, чтобы отключить апгрейдер на сервере.
+		}
+
+		CooldownTicks: {
+			Label: Перезарядка (тики)
+			Tooltip: Задержка между апгрейдами. 60 тиков — одна секунда.
+		}
+
+		StrictCategories: {
+			Label: Строгие категории
+			Tooltip: Оружие только в оружие, броня в броню, аксессуар в аксессуар. Выключите, чтобы разрешить всё.
+		}
+	}
+
+	UpgraderClientConfig: {
+		DisplayName: Интерфейс апгрейдера
+
+		Headers: {
+			Tooltip: Подсказки
+			Interface: Интерфейс
+		}
+
+		ShowValueInTooltip: {
+			Label: Показывать ценность в подсказках
+			Tooltip: ""
+		}
+
+		ShowStackValueInTooltip: {
+			Label: Показывать сумму за стак
+			Tooltip: Добавляет вторую строку с ценностью всего стака.
+		}
+
+		AnimateTooltipIcon: {
+			Label: Анимировать монету
+			Tooltip: ""
+		}
+
+		TooltipIconFrameTicks: {
+			Label: Скорость вращения монеты
+			Tooltip: Тиков на кадр. Больше — медленнее.
+		}
+
+		TooltipIconSize: {
+			Label: Размер монеты
+			Tooltip: Целые шаги сохраняют пиксельную чёткость.
+		}
+
+		ShowInventoryButton: {
+			Label: Показывать кнопку в инвентаре
+			Tooltip: ПКМ-перетаскиванием кнопку можно перенести.
+		}
+
+		PlaySounds: {
+			Label: Звуковые эффекты
+			Tooltip: ""
+		}
+
+		SpinDurationTicks: {
+			Label: Длительность прокрутки (тики)
+			Tooltip: Сколько крутится колесо до показа результата.
+		}
+
+		ScreenShakeOnResult: {
+			Label: Тряска экрана при результате
+			Tooltip: ""
+		}
+	}
+}
+
+Keybinds.ToggleUpgrader.DisplayName: Открыть апгрейдер

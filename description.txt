@@ -1,1 +1,19 @@
-Modify this file with a description of your mod.
+Item Upgrader adds a case-battle style gambling machine to Terraria.
+
+Every item in the game - vanilla or modded - is given a market value derived from its own stats:
+effective DPS, defense, tool power, rarity tier and vendor price. The value is shown at the bottom
+of the item's tooltip next to an animated stack of flying money.
+
+Stake an item, pick the item you want, and the wheel tells you your odds: your value divided by the
+target's value. Win and the new item is yours. Lose and the stake is gone.
+
+Features
+- Upgrade by class: weapon into weapon, armor into armor, accessory into accessory.
+- Full modded item support, values and all - nothing to configure.
+- Searchable, sortable catalog with per-item odds.
+- x2 / x4 / x8 and 30% / 50% / 70% shortcut buttons.
+- Animated chance wheel that lands on the real roll.
+- Win/loss stats, streaks and recent-result history.
+- Favorited items are protected from being staked.
+- Cash button in the inventory (right-drag to move it) and a keybind, default U.
+- Client and server config: house edge, chance caps, failure refunds, cooldown and more.
